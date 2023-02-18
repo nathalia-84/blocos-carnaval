@@ -1,0 +1,65 @@
+.Main {
+    margin: 100px auto;
+    max-width: 90%;
+}
+
+.event-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px;  
+}
+
+.event-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    isolation: isolate;
+
+    width: 384px;
+    height: 323px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+}
+
+.event-photo {
+    position: absolute;
+    width: 100%;
+    height: 153px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.Main h1 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #121214;
+    text-align: left;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #121214;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.location {
+    background-image: url('./images/location.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+}

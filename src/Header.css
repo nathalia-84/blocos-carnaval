@@ -21,7 +21,7 @@ h1 {
   width: 700px;
 }
 
-h1>span {
+h1 > span {
   color: #6246EA;
 }
 
@@ -96,6 +96,7 @@ h1>span {
 }
 
 button {
+  border: none;
   width: 169px;
   height: 48px;
 
@@ -111,4 +112,6 @@ button {
   font-weight: 700;
   font-size: 1.2rem;
   color: #FFFFFF;
+
+  cursor: pointer;
 }
