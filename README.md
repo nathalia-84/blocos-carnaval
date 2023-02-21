@@ -4,7 +4,7 @@
 <p align="left">Uma página com informações sobre blocos de carnaval feita para o desafio #07 do #boraCodar da @Rocketseat.
 
 <h1 align="center">
-  <img alt="Blocos de Crnaval" src="./public/captura16.PNG" />
+  <img alt="Blocos de Carnaval" src="./public/captura16.PNG" />
 </h1>
 
 ## Installation
